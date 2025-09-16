@@ -1,9 +1,11 @@
-# Experiment3_Domingo-M
+# Experiment 3: Phyton Data Analysis (PANDAS)
+### Submitted by: Mariedel Domingo
 
-## I. Intended Learning Outcomes
+## I. Introduction
 
-#### 1. To identify the codes and functions incorporated in the Pandas library
-#### 2. To be able to apply and use the different codes and functions in creating a Python program using a Pandas library
+### Intended Learning Outcomes
+
+- In this experiment, the intended learning outcome is to utilize and apply the built in fucntion incorporated Pandas Library in different sample problem.
 
 ## II. Instructions
 
@@ -47,7 +49,6 @@ cars
 ```
 * By using the **_pd.read_csv() function_**, the file will be located and its dataset stored in the variable cars.
 #### OUTPUT:
-![image](https://github.com/user-attachments/assets/3d9eb492-f3bc-479b-8986-d69611cdeeb2)
 
 ---
 
@@ -59,7 +60,7 @@ cars.head()
 * **_.head() function_** is used to return a specified number of rows, string from the top. 
 
 #### OUTPUT:
-![image](https://github.com/user-attachments/assets/aba5bbd6-7bf7-45c1-9e0a-1c18d696eba4)
+
 
 ---
 
@@ -71,7 +72,7 @@ cars.tail()
 
 * Difference from .head function, **_.tail() function_** returns a specified number of last rows.
 #### OUTPUT:
-![image](https://github.com/user-attachments/assets/aa4061db-0621-4600-b938-875ac138cfc2)
+
 
 ### Problem 2:
 
@@ -85,7 +86,7 @@ cars.loc[range of index,iteration]
 ```
 
 #### OUTPUT:
-![image](https://github.com/user-attachments/assets/b5b79003-4717-42d9-b1de-9ce09e86eaaf)
+
 
 ---
 
@@ -95,7 +96,7 @@ cars.loc[cars['Model'] == 'Mazda RX4']
 ```
 * By utilizing .loc function, this will locate at all rows from the cars Dataset where the value in the 'Model' column is equal to 'Mazda RX4
 #### OUTPUT:
-![image](https://github.com/user-attachments/assets/cadbedb8-e573-4f33-ae70-58b1d98a2be5)
+
 
 ---
 
@@ -106,7 +107,7 @@ cars.loc[cars['Model'] == 'Camaro Z28', ['Model','cyl']]
 * This function will select all rows from the cars dataset where the value in the 'Model' column is 'Mazda RX4' and will display only the 'Model' name and the number of cylinders ('cyl').
 
 #### OUTPUT:
-![image](https://github.com/user-attachments/assets/121c045e-89cc-49bb-b57e-e650881bb45b)
+
 
 ---
 
@@ -119,4 +120,4 @@ cars.loc[(cars['Model'] == 'Mazda RX4 Wag') |
 * This code locates the 'Model', 'cyl', and 'gear' columns from the cars Dataset for rows where the 'Model' is 'Mazda RX4 Wag', 'Ford Pantera L', and 'Honda Civic'
 
 #### OUTPUT:
-![image](https://github.com/user-attachments/assets/500023a4-78bd-4256-9fe8-26d8f4e8e2cb)
+
