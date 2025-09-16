@@ -48,7 +48,10 @@ cars = pd.read_csv('cars.csv')
 cars
 ```
 * By using the **_pd.read_csv() function_**, the file will be located and its dataset stored in the variable cars.
+
 #### OUTPUT:
+
+<img width="597" height="756" alt="image" src="https://github.com/user-attachments/assets/931b00bf-7b11-47bc-9a24-237d9fba6254" />
 
 ---
 
@@ -61,6 +64,8 @@ cars.head()
 
 #### OUTPUT:
 
+<img width="584" height="187" alt="image" src="https://github.com/user-attachments/assets/d762fddc-4452-4ede-84ef-a5ea4e07c548" />
+
 
 ---
 
@@ -71,7 +76,10 @@ cars.tail()
 ```
 
 * Difference from .head function, **_.tail() function_** returns a specified number of last rows.
+
 #### OUTPUT:
+
+<img width="570" height="187" alt="image" src="https://github.com/user-attachments/assets/bae25217-4b6b-4ad9-8e34-7b6a1071005c" />
 
 
 ### Problem 2:
@@ -87,6 +95,8 @@ cars.loc[range of index,iteration]
 
 #### OUTPUT:
 
+<img width="337" height="179" alt="image" src="https://github.com/user-attachments/assets/0ce98552-055a-41b3-b1ce-0138d116e7fd" />
+
 
 ---
 
@@ -95,7 +105,10 @@ cars.loc[range of index,iteration]
 cars.loc[cars['Model'] == 'Mazda RX4']
 ```
 * By utilizing .loc function, this will locate at all rows from the cars Dataset where the value in the 'Model' column is equal to 'Mazda RX4
+
 #### OUTPUT:
+
+<img width="526" height="66" alt="image" src="https://github.com/user-attachments/assets/1dc94afe-2777-4dda-ac10-a8a077978b2a" />
 
 
 ---
@@ -108,6 +121,7 @@ cars.loc[cars['Model'] == 'Camaro Z28', ['Model','cyl']]
 
 #### OUTPUT:
 
+<img width="172" height="63" alt="image" src="https://github.com/user-attachments/assets/92befbf4-c481-4237-9f3f-30d5ba479d27" />
 
 ---
 
@@ -120,4 +134,6 @@ cars.loc[(cars['Model'] == 'Mazda RX4 Wag') |
 * This code locates the 'Model', 'cyl', and 'gear' columns from the cars Dataset for rows where the 'Model' is 'Mazda RX4 Wag', 'Ford Pantera L', and 'Honda Civic'
 
 #### OUTPUT:
+
+<img width="228" height="124" alt="image" src="https://github.com/user-attachments/assets/a9a59e8b-b38f-4b40-a348-0f8262464f37" />
 
